@@ -109,42 +109,6 @@ const sobremesas = [
    })
 ]
 
-// function selecionarPrato(elemento, { nome, preco }) {
-//    const selecionado = document.querySelector('.prato .selecionado')
-//    if (selecionado !== null) {
-//       selecionado.classList.remove('selecionado')
-//    }
-//    elemento.classList.add('selecionado')
-
-//    pratoSelecionado = {
-//       nome,
-//       preco
-//    }
-//    verificarPedido()
-// }
-
-// function selecionarBebida(elemento, { nome, preco }) {
-//    const selecionado = document.querySelector('.bebida .selecionado')
-//    if (selecionado !== null) {
-//       selecionado.classList.remove('selecionado')
-//    }
-//    elemento.classList.add('selecionado')
-
-//    bebidaSelecionada = { nome, preco }
-//    verificarPedido()
-// }
-
-// function selecionarSobremesa(elemento, { nome, preco }) {
-//    const selecionado = document.querySelector('.sobremesa .selecionado')
-//    if (selecionado !== null) {
-//       selecionado.classList.remove('selecionado')
-//    }
-//    elemento.classList.add('selecionado')
-
-//    sobremesaSelecionada = { nome, preco }
-//    verificarPedido()
-// }
-
 function getPrecoTotal() {
    return (
       pratoSelecionado.preco +
